@@ -1,0 +1,134 @@
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+@media (max-width: 767px) {
+  header .logo {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: -11px;
+  }
+  header .main-nav {
+    margin: auto;
+  }
+  header .main-nav > li > a {
+    padding: 10px;
+    font-size: 14px;
+    height: 40px;
+  }
+  header .mega-menu {
+    flex-direction: column;
+    gap: 0;
+    padding: 5px;
+  }
+  header .mega-menu .links:first-of-type li:last-child {
+    border-bottom: 1px solid #e9e6e6;
+  }
+  .landing .text h1 {
+    font-size: 28px;
+    margin-top: 10px;
+  }
+  .landing .text p {
+    font-size: 18px;
+  }
+  .events .subscribe form {
+    max-width: 100%;
+    padding: 20px;
+    flex-direction: column;
+    border-radius: 0;
+  }
+  .events .subscribe form input[type="email"] {
+    border-radius: 0;
+  }
+  .events .subscribe form input[type="submit"] {
+    border-radius: 0;
+  }
+  .footer .box h3 {
+    text-align: center;
+  }
+  .footer .box .social {
+    justify-content: center;
+  }
+  .footer .box .text {
+    text-align: center;
+  }
+  .footer .box .links {
+    text-align: center;
+  }
+  .footer .box .line {
+    text-align: center;
+    flex-direction: column;
+  }
+  .footer .box .line i {
+    margin-bottom: 10px;
+  }
+  .footer .footer-gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media (max-width: 991px) {
+  header .mega-menu .image {
+    display: none;
+  }
+  .landing .text {
+    text-align: center;
+  }
+  .landing .text p {
+    margin: 10px auto;
+  }
+  .landing .image {
+    display: none;
+  }
+  .our-skills img {
+    display: none;
+  }
+  .work-steps .container {
+    flex-direction: column;
+  }
+  .work-steps .image {
+    margin: 0 0 50px;
+  }
+  .events img {
+    display: none;
+  }
+  .videos .holder {
+    flex-direction: column;
+  }
+  .discount .image {
+    flex-basis: 100%;
+  }
+  .discount .form {
+    flex-basis: 100%;
+  }
+  .discount .form [type="submit"] {
+    margin-bottom: 10px;
+  }
+  .dots {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pricing .popular {
+    top: 20px;
+  }
+}
